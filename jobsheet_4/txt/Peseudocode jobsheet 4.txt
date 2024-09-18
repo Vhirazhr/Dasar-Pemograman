@@ -1,0 +1,26 @@
+Algorithm HitungLuasCircumferenceLingkaran
+{input radius and calculate the circumference and area of the circle}
+    // Deklarasi variabel
+    Declare Real phi, 
+    r : int
+    circumference 
+    area
+
+    //Description
+    // Input radius dari pengguna
+    Display print "Input radius: "
+    Input r
+
+    // Assign nilai phi
+    phi = 3.14
+
+    // Hitung luas lingkaran
+    area = phi * r * r
+
+    // Hitung keliling lingkaran
+    circumference = 2 * phi * r
+
+    // Output hasil perhitungan
+    Display "Area: ", area
+    Display "Circumference: ", circumference
+End Algorithm

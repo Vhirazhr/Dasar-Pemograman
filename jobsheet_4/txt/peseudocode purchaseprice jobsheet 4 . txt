@@ -1,0 +1,29 @@
+Algorithm CalculateTotalCost
+    // Declare variables
+    Declare String bookBrand
+    Declare Integer pageCount, totalCost, discount
+
+    // Input bookBrand from user
+    Display "Enter book brand: "
+    Input bookBrand
+
+    // Input pageCount from user
+    Display "Enter page count: "
+    Input pageCount
+
+    // Input discount from user
+    Display "Enter discount percentage: "
+    Input discount
+
+    // Calculate total cost
+    totalCost = pageCount * 10 - (pageCount * 10 * discount / 100)
+
+    // Display input values
+    Display "Book brand: ", bookBrand
+    Display "Page count: ", pageCount
+    Display "Discount percentage: ", discount, "%"
+
+    // Display calculated total cost
+    Display "Total cost: ", totalCost
+
+End Algorithm

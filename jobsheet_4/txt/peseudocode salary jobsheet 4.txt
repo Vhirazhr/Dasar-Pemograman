@@ -1,0 +1,33 @@
+Algorithm CalculateTotalSalary
+    // Declare variables
+    Declare Integer numAttendance, numAbsence, totalSalary, salary, salaryDeduction
+
+    // Input salary from user
+    Display "Input salary: "
+    Input salary
+
+    // Input salary deduction from user
+    Display "Input salary deduction: "
+    Input salaryDeduction
+
+    // Input attendance number from user
+    Display "Input attendance number: "
+    Input numAttendance
+
+    // Input absence number from user
+    Display "Input absence number: "
+    Input numAbsence
+
+    // Calculate total salary
+    totalSalary = (numAttendance * salary) - (numAbsence * salaryDeduction)
+
+    // Display input values
+    Display "Input salary: ", salary
+    Display "Input salary deduction: ", salaryDeduction
+    Display "Input attendance number: ", numAttendance
+    Display "Input absence number: ", numAbsence
+
+    // Display calculated total salary
+    Display "Total salary: ", totalSalary
+
+End Algorithm
